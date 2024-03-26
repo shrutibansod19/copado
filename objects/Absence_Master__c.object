@@ -163,11 +163,13 @@
     <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Active__c</fullName>
-        <defaultValue>true</defaultValue>
+        <fullName>Description__c</fullName>
         <externalId>false</externalId>
-        <label>Active</label>
+        <label>Description</label>
+        <length>200</length>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
 </CustomObject>
